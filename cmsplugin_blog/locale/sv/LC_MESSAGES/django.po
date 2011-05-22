@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cmsplugin-blog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-22 20:46+0200\n"
+"PO-Revision-Date: 2011-05-22 21:02+0100\n"
+"Last-Translator: Simon Hedberg <simon@in-formation.se>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: admin.py:110
+msgid "author"
+msgstr "författare"
+
+#: admin.py:115
+#: models.py:58
+msgid "title"
+msgstr "rubrik"
+
+#: cms_app.py:6
+msgid "Blog Apphook"
+msgstr "Blogg App"
+
+#: cms_plugins.py:12
+#: templates/cmsplugin_blog/entry_archive.html:5
+msgid "Latest entries"
+msgstr "Senaste inlägg"
+
+#: feeds.py:43
+#: feeds.py:54
+msgid "Blog entries"
+msgstr "Blogginlägg"
+
+#: feeds.py:44
+#: feeds.py:55
+#, python-format
+msgid "Blog entries in %s"
+msgstr "Blogginlägg i %s"
+
+#: feeds.py:83
+#, python-format
+msgid "%(title)s tagged \"%(tag)s\""
+msgstr "%(title)s taggat med \"%(tag)s\""
+
+#: feeds.py:95
+#, python-format
+msgid "%(description)s tagged \"%(tag)s\""
+msgstr "%(description)s taggat med \"%(tag)s\""
+
+#: feeds.py:112
+#, python-format
+msgid "%(title)s by %(author)s"
+msgstr "%(title)s av %(author)s"
+
+#: feeds.py:124
+#, python-format
+msgid "%(description)s by %(author)s"
+msgstr "%(description)s av %(author)s"
+
+#: models.py:38
+msgid "is published"
+msgstr "är publicerad"
+
+#: models.py:39
+msgid "published"
+msgstr "publicerad"
+
+#: models.py:49
+#: models.py:56
+msgid "entry"
+msgstr "inlägg"
+
+#: models.py:50
+msgid "entries"
+msgstr "inlägg"
+
+#: models.py:57
+msgid "language"
+msgstr "språk"
+
+#: models.py:59
+msgid "slug"
+msgstr "URL-namn"
+
+#: models.py:76
+msgid "entry title"
+msgstr "översättning"
+
+#: models.py:77
+msgid "entry titles"
+msgstr "översättningar"
+
+#: models.py:83
+msgid "Number of entries items to show"
+msgstr "Antal inlägg att visa"
+
+#: models.py:84
+msgid "Limits the number of items that will be displayed"
+msgstr "Begränsar antal inlägg som kommer att visas"
+
+#: models.py:86
+msgid "Only show entries for the current language"
+msgstr "Visa endast inlägg med nuvarande språk"
+
+#: templates/cmsplugin_blog/author_links_snippet.html:3
+msgid "See entries by"
+msgstr "Se inlägg av"
+
+#: templates/cmsplugin_blog/entry_archive.html:14
+#: templates/cmsplugin_blog/latest_entries.html:7
+msgid "No entries"
+msgstr "Inga inlägg"
+
+#: templates/cmsplugin_blog/entry_archive_day.html:6
+#: templates/cmsplugin_blog/entry_archive_month.html:6
+#: templates/cmsplugin_blog/entry_archive_year.html:7
+msgid "Entries for"
+msgstr "Inlägg från"
+
+#: templates/cmsplugin_blog/entry_archive_day.html:14
+msgid "No entries for this day"
+msgstr "Inga inlägg denna dag"
+
+#: templates/cmsplugin_blog/entry_archive_month.html:13
+msgid "No entries for this month"
+msgstr "Inga inlägg denna månad"
+
+#: templates/cmsplugin_blog/entry_archive_year.html:12
+msgid "No entries for this year"
+msgstr "Inga inlägg detta år"
+
+#: templates/cmsplugin_blog/entry_author_list.html:11
+msgid "Entries by"
+msgstr "Inlägg av"
+
+#: templates/cmsplugin_blog/entry_author_list.html:20
+msgid "No entries by"
+msgstr "Inga inlägg av"
+
+#: templates/cmsplugin_blog/entry_list.html:11
+msgid "Entries tagged"
+msgstr "Inlägg taggade"
+
+#: templates/cmsplugin_blog/entry_list.html:20
+msgid "No entries tagged"
+msgstr "Inga inlägg taggade"
+
+#: templates/cmsplugin_blog/month_links_snippet.html:3
+msgid "See entries for"
+msgstr "Se inlägg från"
+
+#: templates/cmsplugin_blog/tag_links_snippet.html:3
+msgid "See entries tagged"
+msgstr "Se inlägg taggade med"
+
